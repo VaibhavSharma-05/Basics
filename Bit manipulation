@@ -5,7 +5,7 @@ import temp.First;
          int bitMask = 1<<pos;
          int notBitMask = ~(bitMask);
 
-        //operations
+        //operation 1
          int newNumber = notBitMask & n;
         System.out.print(newNumber);
 
@@ -26,4 +26,4 @@ import temp.First;
             System.out.println(newNumber);
         }
     }
-} Author - Vaibhav 
+} 
